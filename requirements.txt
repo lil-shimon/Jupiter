@@ -1,0 +1,2 @@
+Numpy
+janome==0.3.7

@@ -19,4 +19,4 @@ RUN pip install -r requirements.txt
 
 # 作業するディレクトリを変更
 # コンテナの内部には入った際のディレクトリの位置を変更している
-WORKDIR /home/DeepLearning/src
+WORKDIR /project/Jupiter/src

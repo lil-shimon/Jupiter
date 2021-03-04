@@ -7,5 +7,5 @@ services:
       dockerfile: ./Dockerfile
     image: python_machine_learning
     volumes: 
-        - $PWD:/home/DeepLearning
+        - $PWD:/project/Jupiter/src
     tty: true

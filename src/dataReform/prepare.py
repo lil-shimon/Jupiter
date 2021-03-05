@@ -21,5 +21,5 @@ wagahai_list = [x + separator for x in wagahai_list]  # 文章の最後に。を
 
 print(wagahai_list)
 
-with open("wagahai_list.pickle", mode="wb") as f:  # pickleに保存
+with open("../morphologicalAnalysis/wagahai_list.pickle", mode="wb") as f:  # pickleに保存
     pickle.dump(wagahai_list, f)

@@ -64,3 +64,9 @@ for tok in t.tokenize(smoke):
     # 動詞, 非自立, *, *, 五段・ラ行特殊, 命令ｉ, 下さる, クダサイ, クダサイ
     # 。      記号, 句点, *, *, *, *, 。, 。, 。
 
+sumomo = "すもももももももものうち"
+
+# wakati=Trueで分かち書きをすることができる。結果はリストで出力
+word_list = t.tokenize(s, wakati=True)
+print(word_list)
+# ['すもも', 'も', 'もも', 'も', 'もも', 'の', 'うち']

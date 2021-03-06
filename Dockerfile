@@ -10,7 +10,7 @@ RUN apt-get update \
     && pip install --upgrade pip
 
 # 作業するディレクトリを変更
-WORKDIR /home/DeepLearning
+WORKDIR /project/Jupiter
 
 COPY requirements.txt ${PWD}
 
